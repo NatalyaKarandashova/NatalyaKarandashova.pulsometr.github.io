@@ -1,0 +1,58 @@
+.plus{
+    margin-top: 203px;
+    min-height: 472px;
+    background-color: #f6f6f6;
+    &__header1 {
+        padding-top: 72px;
+        display: flex;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+    &__sub{
+        padding-top: 63px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__subs{
+        display: block;
+        width: 269px;
+        min-height:91px;
+        img{
+            display: block;
+            margin: 0 auto;
+        }
+        a {
+            color: #c70101;
+            font-style: italic;
+            display: block;
+            text-align: center;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 18px;
+
+        }
+    }
+    &__subheader2 {
+        text-align: center;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 29px;
+    }
+    &__text{
+        display: block;
+        text-align: center;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    &__icon {
+        &_animated {
+            animation-name: heartbeat;
+            animation-duration: 1s;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+        }
+    }
+}

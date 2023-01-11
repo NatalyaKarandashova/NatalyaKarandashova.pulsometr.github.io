@@ -1,0 +1,42 @@
+.main {
+    margin-top: 5px;
+    margin-bottom: 55px;
+    &__header{
+        display: block;
+        margin: 0 auto;
+        font-size: 30px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        
+    }
+    &__first{
+        display: flex;
+        flex-direction: row;
+        margin-top: 60px;
+        img{
+            width: 169px;
+            height: 169px;
+        }
+    }
+    &__subtitle{
+        font-size: 18px;
+        font-weight: 700;
+    }
+    &__sub{
+        color:#646464;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    &__desc{
+        margin-top: 15px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        width: 680px;
+        max-height: 228px;
+    }
+    &__text{
+        margin-left: 63px;
+    }
+}
